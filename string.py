@@ -43,7 +43,7 @@ result6 = your_distt.find('ict')
 result7_a = your_distt.index('is')
 result8 = your_distt.swapcase()
 result8_a = your_distt.swapcase()
-print(your_distt)
+# print(your_distt)
 
 '''
 print(result)
@@ -58,8 +58,15 @@ print(result5)
 print(result5_a)
 print(result5_b)
 print(result6)
-# print(result7)
+ print(result7)
 print(result7_a)
-'''
 print(result8)
 print(result8_a)
+'''
+
+
+you_name = input("Enter your name: ")
+print("Hi, your name contains " , len(you_name), "Letters")
+
+for name in you_name:
+    print(name)
