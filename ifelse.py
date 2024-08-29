@@ -34,6 +34,10 @@ else:
     print(''' Learn and Grow , Don't Give Up  ''')
 ."""
 
+
+
+
+'''
 timestamp = time.strftime('%H:%M:%S')
 print(timestamp)
 
@@ -53,3 +57,6 @@ elif(greet_time > 20 and greet_time < 24):
     print('Good Night')
 else:
     print('Sure , Tum Other Grah ke') 
+'''
+
+print('on 29/08/2024')
