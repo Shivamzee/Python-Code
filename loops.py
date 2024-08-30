@@ -52,8 +52,26 @@ print('Table of 15 is completed')
 
 
 # Print the table of 23 
-for table23 in range(12):
-    if(table23 == 10):
-        break
-    print('23 X' , table23 + 1 , ' = ' , 13*(table23 + 1))
+# for table23 in range(12):
+#     if(table23 == 10):
+#         break
+#     print('23 X' , table23 + 1 , ' = ' , 23*(table23 + 1))
     
+
+# Print a series which have 5 num gap
+# for odd in range(0 , 50 ,5):
+#     print(odd)
+
+
+# Print the table of 17
+# print('Table of 17: \n')
+# for table17 in range(12):
+#     if(table17 == 10):
+#         break
+#     print('17 X' , table17 + 1 , ' = ' , 17*(table17 + 1))
+
+
+# num = 2
+# while(num < 10):
+#     print(num)
+#     num = num +1
