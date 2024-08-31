@@ -47,3 +47,59 @@ print(nlist)
 
 
 # Mathods of list
+of = [1,25,2,3,5,385,174,5,8,5,6]
+# print(of)
+# of.append(3) add 3 in last
+# of.clear()  remove all items from list
+# of.copy()  copy of list
+'''
+count3 =  of.count(3)
+count3 =  of.count(5)
+print(count3)
+'''
+
+
+'''
+name = ['Py','js','css','ts','jsx','html']
+of.extend(name)
+print(of)
+'''
+
+'''
+name = ['Py','js','css','ts','jsx','html']
+# name.index(5)
+print(name.index('ts'))
+print(name.index('js'))
+'''
+
+
+'''
+name = ['Py','js','css','ts','jsx','html']
+print(name)
+name.insert(2,'React.js')
+print(name)
+name.pop()
+print(name)
+name.remove('jsx')
+# name.remove('jsx','ts') will get type error
+print(name)
+
+
+
+
+name = ['Py','js','css','ts','jsx','html']
+name.reverse()
+print(name)
+'''
+
+
+'''
+of = [1,25,2,3,5,385,174,5,8,5,6]
+of.sort()
+minnum_of = min(of)
+print(minnum_of)
+maxnum_of =max(of)
+print(maxnum_of)
+
+'''
+
